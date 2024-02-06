@@ -5,7 +5,7 @@ module Spaceship
       include Spaceship::ConnectAPI::Model
 
       attr_accessor :custom_app_name
-      attr_accessor :local
+      attr_accessor :locale
       attr_accessor :name
       attr_accessor :state
 
@@ -18,7 +18,7 @@ module Spaceship
 
       attr_mapping({
         customAppName: 'custom_app_name',
-        local: 'local',
+        locale: 'locale',
         name: 'name',
         state: 'state'
       })
